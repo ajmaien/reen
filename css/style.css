@@ -1,0 +1,667 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Lato', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+/**************************************************************
+       ************ top header section start*****************
+**************************************************************/
+.top-header{
+	width: 100%;
+	padding: 16px 0px 0px;
+	background: #f5f7fa;
+	border-bottom: 1px solid #e6e9ed;
+}
+.top-header .top-header-inner{
+	width: 100%;
+	margin: 0px;
+}
+.top-header .top-header-inner ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 18px;
+}
+.top-header .top-header-inner ul li a{
+	font-size: 14px;
+	color: #506a85;
+}
+.top-header .top-header-inner ul li a i{
+	margin-right: 5px;
+}
+.social-top-inner{
+	width: 100%;
+	margin: 0px;
+	text-align: right;
+}
+.social-top-inner ul{
+	margin: 0px;
+}
+.social-top-inner li{
+
+}
+.social-top-inner ul li{
+	list-style: none;
+	display: inline-block;
+	font-size: 16px;
+}
+.social-top-inner ul li a{
+	margin-right: 17px;
+	color: #506a85;
+}
+.social-top-inner ul li a:hover{
+	color: #3079ff;
+}
+
+/**************************************************************
+       ************ top header section end*****************
+**************************************************************/
+/**************************************************************
+       ************ nav section start*****************
+**************************************************************/
+
+.bg-light {
+	width: 100%;
+    background-color: #fff!important;
+    padding: 23px 0px;
+}
+.navbar-light .navbar-nav .active > .nav-link {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    color: #506a85;
+    text-transform: uppercase;
+    
+}
+.navbar-light .navbar-nav .nav-link {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 13px;
+    color: #506a85;
+    text-transform: uppercase;
+    margin-right: 36px;
+}
+
+.form-inline i{
+	font-size: 16px;
+	margin-right: 17px;
+	color: #506a85;
+}
+.form-inline .fa-search:hover{
+	color: #00bc9c;
+}
+
+/**************************************************************
+       ************ nav section end*****************
+**************************************************************/
+/**************************************************************
+       ************ banner section start*****************
+**************************************************************/
+.banner-section{
+	width: 100%;
+	background: url(../images/hero.png)center top no-repeat;
+	background-size: cover;
+}
+.banner-inner{
+	width: 100%;
+	padding: 182px 0px;
+}
+.banner-inner h1{
+	width: 100%;
+	font-size: 70px;
+    color: #fff;
+    font-weight: 600;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+}
+.banner-inner p{
+	width: 100%;
+	font-size: 16px;
+    font-weight: 600;
+    color: #a3b1bf;
+    margin-bottom: 40px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.banner-inner .btn-info{
+	font-size: 15px;
+    background: #00bc9c;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 1px solid #00bc9c;
+    padding: 7px 34px;
+}
+.banner-inner .btn-info:hover{
+	background: transparent;
+    border: 1px solid #00bc9c;
+    transition: 1s;
+}
+
+/**************************************************************
+       ************ banner section end*****************
+**************************************************************/
+/**************************************************************
+       ************ barnding section start*****************
+**************************************************************/
+.branding-section{
+	width: 100%;
+	padding: 65px 0px;
+}
+.branding h1{
+	width: 100%;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    color: #506a85;
+}
+.branding p {
+	width: 100%;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #96a5b4;
+    margin: 15px 0px 60px;
+}
+.media i{
+	font-size: 50px;
+    color: #00bc9c;
+    margin-right: 22px;
+}
+.media-body .media-heading{
+	width: 100%;
+	font-size: 22px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: #506a85;
+}
+.media-body p{
+	width: 100%;
+	font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #96a5b4;
+}
+/**************************************************************
+       ************ barnding section end*****************
+**************************************************************/
+/**************************************************************
+       ************ figure section start*****************
+**************************************************************/
+.figure-section{
+	width: 100%;
+	background: #f2f5f7;
+	padding: 65px 0px;
+}
+.figure-inner h1{
+	width: 100%;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    color: #506a85;
+    
+}
+.figure-inner p{
+	width: 100%;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #96a5b4;
+    margin:0px 0px 40px;
+}
+.figure-pic{
+	width: 100%;
+}
+.figure-pic img{
+	width: 100%;
+}
+.figure{
+	width: 100%;
+	background: #fff;
+	margin: 40px 0px 60px;
+	border-bottom: 1px solid #e6e9ed;
+}
+.text-inner{
+	width: 100%;
+    margin: 30px 0px;
+}
+.text-inner h5{
+	width: 100%;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    color: #506a85;
+}
+ .text-inner p{
+	width: 100%;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #96a5b4;
+}
+
+
+/**************************************************************
+       ************ figure section end*****************
+**************************************************************/
+
+/**************************************************************
+       ************ work section start*****************
+**************************************************************/
+.work-section{
+	width: 100%;
+	padding: 65px 0px;
+}
+.work-section h1{
+	width: 100%;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    color: #506a85;
+}
+.work-section p{
+	width: 100%;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #96a5b4;
+    margin-top: 20px;
+}
+.work-inner .btn-info{
+	font-size: 14px;
+    background: #00bc9c;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 1px solid #00bc9c;
+    padding: 6px 26px;
+    margin-top: 20px;
+}
+.work-inner .btn-info:hover{
+	color: #00bc9c;
+	background: transparent;
+    border: 1px solid #00bc9c;
+    transition: 1s;
+}
+/**************************************************************
+       ************ work section end*****************
+**************************************************************/
+/**************************************************************
+       ************ footer top section start*****************
+**************************************************************/
+.footer-top{
+	width: 100%;
+	background: #2f4052;
+	padding: 60px 0px;
+}
+.foot-top{
+	width: 100%;
+	font-size: 17px;
+    font-weight: 600;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+.footer-img{
+	margin-bottom: 5px;
+}
+.footer-img img{
+	margin-bottom:20px;
+}
+.footer-inner p{
+	font-size: 14px;
+    color: #a3b1bf;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.footer-inner a{
+	  color: #a3b1bf;
+}
+.footer-inner i{
+	  color: #a3b1bf;
+}
+.top-footer-icon ul li{
+	list-style: none;
+	margin-right: 20px;
+	padding: 1px 0px;
+}
+.top-footer-icon ul li a{
+	font-size: 14px;
+	color: #a3b1bf;
+}
+.top-footer-icon ul li a i{
+	margin-right: 12px;
+	font-size: 20px;
+}
+.top-footer-in a{
+	font-size: 14px;
+    font-weight: 600;
+    color: #a3b1bf;
+}
+.top-footer-in a i{
+	font-size: 12px;
+    margin-left: 2px;
+    color: #a3b1bf;
+}
+.fa-envelope-o:before {
+    font-size: 14px;
+}
+.form-control{
+	background: #4e5c6c;
+    border: #4e5c6c;
+}
+.input-group-append {
+    margin-left: -1px;
+    background: #00bc9c;
+}
+.input-group-append .btn-secondary{
+	color: #fff;
+	font-size: 14px;
+    border: #00bc9c;
+    
+}
+.input-group-append .btn-secondary:hover{
+	color: #fff;
+	background:#00bc9c;
+}
+
+
+/**************************************************************
+       ************ footer top section end*****************
+**************************************************************/
+/**************************************************************
+       ************ footer bottom section start*****************
+**************************************************************/
+
+
+.footer-bottom{
+	width: 100%;
+	background: #283645;
+	padding: 15px 0px 0px;
+}
+.footer-bottom-inner p{
+	width: 100%;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #506a85;
+    margin: 0px;
+    padding: 0px;
+}
+.footer-bottom-inne{
+	text-align: right;
+}
+.footer-bottom-inne p a{
+	width: 100%;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #506a85;
+    padding: 8px;
+}
+.footer-bottom-inne p a:hover{
+    color: #fff;
+}
+.footer-bottom-inne p:hover{
+    color: #fff;
+}
+/**************************************************************
+       ************ footer bottom section end*****************
+**************************************************************/
+
+/**************************************************************
+       ************ css media query start*****************
+**************************************************************/
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .top-header .top-header-inner {
+    text-align: center;
+}
+.social-top-inner ul {
+    margin: 0px;
+    text-align: center;
+}
+.social-top-inner ul li {
+    padding: 0px 6px;
+}
+.navbar-brand img {
+    margin-left: 10px;
+}
+.navbar-light .navbar-toggler {
+    color: #506a85;
+    border-color: #506a85;
+    margin-right: 10px;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    font-size: 16px;
+    background: #506a85;
+    color: #fff;
+    padding: 12px;
+    margin: 8px 0px 2px;
+}
+.navbar-light .navbar-nav .active>.nav-link:hover {
+	background: #00bc9c;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    background: #506a85;
+    color: #fff;
+    padding: 12px;
+    margin: 0px 0px 2px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    background: #00bc9c;
+    color: #fff;
+}
+.banner-inner {
+    width: 100%;
+    padding: 80px 0px;
+}
+.banner-inner h1 {
+    width: 100%;
+    font-size: 55px;
+}
+.banner-inner p {
+    padding: 3px;
+}
+.branding-section {
+    width: 100%;
+    padding: 58px 0px;
+}
+.banner-inner .btn-info {
+    font-size: 13px;
+    padding: 7px 13px;
+}
+.branding h1 {
+    width: 100%;
+    font-size: 27px;
+}
+.branding p {
+    width: 100%;
+    font-size: 12px;
+    margin: 10px 0px 40px;
+    padding: 20px;
+}
+.media i {
+    font-size: 32px;
+    color: #00bc9c;
+    margin-right: 9px;
+}
+.media-body p {
+    width: 100%;
+    font-size: 12px;
+   
+}
+.media-body .media-heading {
+    width: 100%;
+    font-size: 18px;
+   
+}
+.figure-inner h1 {
+   
+    font-size: 27px;
+   
+}
+.figure-inner p {
+     font-size: 12px;
+}
+.text-inner h5 {
+   
+    font-size: 13px;
+    
+}
+.text-inner p {
+    
+    font-size: 9px;
+    
+}
+.work-section h1 {
+   
+    font-size: 27px;
+    
+}
+.work-section p {
+   
+    font-size: 12px;
+    
+}
+  .foot-top {
+   
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+.footer-bottom-inne {
+    text-align: center;
+    margin-top: 6px;
+}
+.footer-bottom-inner p {
+    
+    font-size: 11px;
+    
+}
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+ .navbar-light .navbar-nav .active>.nav-link {
+    font-size: 17px;
+    background: #506a85;
+    color: #fff;
+    padding: 12px;
+    margin: 8px 0px 2px;
+}
+.navbar-light .navbar-nav .active>.nav-link:hover {
+	background: #283645;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 17px;
+    background: #506a85;
+    color: #fff;
+    padding: 12px;
+    margin: 0px 0px 2px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    background: #283645;
+    color: #fff;
+}
+.branding p {
+    
+    font-size: 16px;
+    
+}
+.media i {
+    font-size: 52px;
+    
+    margin-left: 72px;
+}
+.media-body .media-heading {
+    
+    font-size: 25px;
+    
+    margin-left: 10px;
+}
+.media-body p {
+    font-size: 12px;
+    margin-left: 10px;
+}
+.foot-top {
+    
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+.figure-inner h5 {
+    font-size: 18px;
+}
+.footer-bottom-inner p a {
+    padding: 0px;
+}
+.top-footer-innner p {
+    font-size: 12px;
+}
+.foot-img img {
+    width: 48%;
+}
+.top-footer-icon ul li a {
+    font-size: 11px;
+}
+.top-footer-icon ul li {
+    padding: 0px;
+}
+.footer-top {
+    padding: 50px 0px 30px;
+}
+.input-group-append .btn-secondary:hover {
+    font-size: 10px;
+}
+  
+}
+  /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+ .navbar-brand img {
+    margin-right: 20px;
+}
+.navbar-light .navbar-nav .nav-link {
+    margin-right: 7px;
+}
+.media-body p {
+    width: 100%;
+    font-size: 12px;
+}
+.foot-img img {
+    width: 49%;
+}
+.footer-top {
+    padding: 60px 0px 40px;
+}
+  
+}
+
+
+
+
+/**************************************************************
+       ************ css media query end*****************
+**************************************************************/
+
