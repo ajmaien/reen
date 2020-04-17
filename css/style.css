@@ -111,6 +111,7 @@ a,a:hover{
 **************************************************************/
 .banner-section{
 	width: 100%;
+    padding: 0px 0px;
 	
 }
 .banner-inner {
@@ -420,13 +421,15 @@ a,a:hover{
 /**************************************************************
        ************ css media query start*****************
 **************************************************************/
+
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
-*/
+*/    
+    
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .top-header .top-header-inner {
+.top-header .top-header-inner {
     text-align: center;
 }
 .social-top-inner ul {
@@ -465,24 +468,34 @@ a,a:hover{
     background: #00bc9c;
     color: #fff;
 }
+
 .banner-inner {
     width: 100%;
-    padding: 80px 0px;
+    margin-bottom: 0px;
 }
 .banner-inner h1 {
     width: 100%;
-    font-size: 55px;
+    font-size:17px;
 }
 .banner-inner p {
-    padding: 3px;
+    width: 100%;
+    font-size: 8px;
+    font-weight: 600;
+    color: #a3b1bf;
+    margin-bottom: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 10px;
+}
+
+
+.banner-inner .btn-info {
+    font-size: 5px;
+    padding: 3px 8px;
+    margin-top:10px;
 }
 .branding-section {
     width: 100%;
-    padding: 58px 0px;
-}
-.banner-inner .btn-info {
-    font-size: 13px;
-    padding: 7px 13px;
+    padding:0px 0px;
 }
 .branding h1 {
     width: 100%;
