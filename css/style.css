@@ -14,6 +14,9 @@ h1,h2,h3,h4,h5,h6{
 a,a:hover{
 	text-decoration: none;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 /**************************************************************
        ************ top header section start*****************
@@ -493,6 +496,11 @@ a,a:hover{
     padding: 3px 8px;
     margin-top:10px;
 }
+.banner-inner .btn-info:hover{
+    background: transparent;
+    border: 1px solid #00bc9c;
+    transition: 1s;
+}
 .branding-section {
     width: 100%;
     padding:0px 0px;
@@ -593,6 +601,11 @@ a,a:hover{
     background: #283645;
     color: #fff;
 }
+.banner-inner .btn-info:hover{
+    background: transparent;
+    border: 1px solid #00bc9c;
+    transition: 1s;
+}
 .branding p {
     
     font-size: 16px;
@@ -678,6 +691,11 @@ a,a:hover{
     font-family: 'Source Sans Pro', sans-serif;
 
 }
+.banner-inner .btn-info:hover{
+    background: transparent;
+    border: 1px solid #00bc9c;
+    transition: 1s;
+}
 .navbar-light .navbar-nav .nav-link {
     margin-right: 7px;
 }
@@ -692,7 +710,7 @@ a,a:hover{
     padding: 60px 0px 40px;
 }
   
-}
+
 
 
 
@@ -700,4 +718,16 @@ a,a:hover{
 /**************************************************************
        ************ css media query end*****************
 **************************************************************/
+
+/******scroll css code*********/
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom:20px;
+    right:-20px;
+    display:block;
+
+}
+
+ 
 

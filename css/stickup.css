@@ -1,0 +1,14 @@
+/*********stickup css*************/
+.isStuck{
+    left:0px;
+    width:100%;
+    background: red;
+}
+
+.navbar-wrapper {
+  margin-top:0px;
+  position: relative;
+  z-index: 15;
+  width: 100%;
+
+}
