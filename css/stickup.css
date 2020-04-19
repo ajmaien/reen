@@ -2,13 +2,16 @@
 .isStuck{
     left:0px;
     width:100%;
-    background: red;
+    background-color:#f5f7fa;
+
 }
 
 .navbar-wrapper {
   margin-top:0px;
   position: relative;
-  z-index: 15;
+  z-index: 15; 
   width: 100%;
 
+
 }
+ 
