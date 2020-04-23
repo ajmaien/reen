@@ -6,6 +6,7 @@ body{
 	font-family: 'Lato', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
+    overflow-x: hidden;
 	
 }
 h1,h2,h3,h4,h5,h6{
@@ -155,6 +156,13 @@ html {
     border: 1px solid #00bc9c;
     transition: 1s;
 }
+.banner-section .web{
+    display: block;
+}
+.banner-section .responsive{
+    display: none;
+}
+
 
 /**************************************************************
        ************ banner section end*****************
@@ -199,6 +207,12 @@ html {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
     color: #96a5b4;
+}
+.branding-section .web{
+    display: block;
+}
+.branding-section .responsive{
+    display: none;
 }
 /**************************************************************
        ************ barnding section end*****************
@@ -299,6 +313,12 @@ html {
 	background: transparent;
     border: 1px solid #00bc9c;
     transition: 1s;
+}
+.work-section .web{
+    display: block;
+}
+.work-section .responsive{
+    display: none;
 }
 /**************************************************************
        ************ work section end*****************
@@ -496,6 +516,12 @@ html {
     background: #00bc9c;
     color: #fff;
 }
+.banner-section .web{
+    display: none;
+}
+.banner-section .responsive{
+    display: block;
+}
 
 .banner-inner {
     width: 100%;
@@ -597,6 +623,18 @@ html {
     font-size: 11px;
     
 }
+.branding-section .web{
+    display: none;
+}
+.branding-section .responsive{
+    display: block;
+}
+.work-section .web{
+    display: none;
+}
+.work-section .responsive{
+    display: block;
+}
 
 }
 /* 
@@ -642,6 +680,12 @@ html {
     line-height: 16px;
     margin-bottom:20px;
    
+}
+.banner-section .web{
+    display: none;
+}
+.banner-section .responsive{
+    display: block;
 }
 
 
@@ -700,6 +744,18 @@ html {
 .input-group-append .btn-secondary:hover {
     font-size: 10px;
 }
+.branding-section .web{
+    display: none;
+}
+.branding-section .responsive{
+    display: block;
+}
+.work-section .web{
+    display: none;
+}
+.work-section .responsive{
+    display: block;
+}
   
 }
   /* 
@@ -736,6 +792,12 @@ html {
     font-family: 'Source Sans Pro', sans-serif;
 
 }
+.banner-section .web{
+    display: none;
+}
+.banner-section .responsive{
+    display: block;
+}
 .banner-inner .btn-info:hover{
     background: transparent;
     border: 1px solid #00bc9c;
@@ -754,6 +816,18 @@ html {
 .footer-top {
     padding: 60px 0px 40px;
 }
+.branding-section .web{
+    display: none;
+}
+.branding-section .responsive{
+    display: block;
+}
+.work-section .web{
+    display: none;
+}
+.work-section .responsive{
+    display: block;
+}
 
 }
 /* 
@@ -769,6 +843,24 @@ html {
 .banner-inner .btn-info {
     font-size: 15px;
     padding: 12px 34px;
+}
+.branding-section .web{
+    display: none;
+}
+.branding-section .responsive{
+    display: block;
+}
+.work-section .web{
+    display: none;
+}
+.work-section .responsive{
+    display: block;
+}
+.banner-section .web{
+    display: none;
+}
+.banner-section .responsive{
+    display: block;
 }
   
   
