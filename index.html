@@ -410,23 +410,26 @@
               <div class="col-md-6" 
                  >
                 <div class="footer-bottom-inner">
-                  <p>© 2014 REEN. All rights reserved.</p>
+                  <p>© ajmaien REEN. All rights reserved.</p>
                 </div>
               </div>
               <div class="col-md-6"
      >
                 <div class="footer-bottom-inne">
-                  <p><a href="#">Home</a> . <a href="#">Portfolio</a> .  <a href="#">Blog</a> .  <a href="#">About</a> . <a href="#">Services</a> . <a href="#">Contact</a> </p>
-                  <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" data-toggle="tooltip" data-placement="right"><i class="fa fa-arrow-up"></i></a>
+                  <p><a href="#">Home</a> . <a href="#">Portfolio</a> .  <a href="#">Blog</a> .  <a href="#">About</a> . <a href="#">Services</a> . <a href="#">Contact</a> 
+ 
+                  </p>
+                
                   
                 </div>
+
 
               </div>
 
             </div>
 
           </div>
-         
+         <button onclick="topFunction()" id="myBtn" title="Go to top" >Top</button>
         </section>
 
        
@@ -440,7 +443,7 @@
       <script src="js/bootstrap.min.js"></script>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script src="js/owl.carousel.min.js"></script>
-      <script src="js/custom.js"></script>
+      
       <!--stickup plugin---->
        <script src="js/stickUp.min.js"></script>
 
@@ -481,6 +484,43 @@
                 });
               });
 
+
+
+//Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
             </script>
+
+
+
   </body>
 </html>
